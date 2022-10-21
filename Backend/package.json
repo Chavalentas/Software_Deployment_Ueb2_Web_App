@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
-    "test": "mocha"
+    "test": "mocha test/test.js"
   },
   "author": "Stefan Chvala",
   "license": "ISC",
