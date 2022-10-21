@@ -38,6 +38,7 @@ stages:
     - script: |
         cd ./Backend
         npm install
+        npm run test --if-present
         npm run build --if-present
       displayName: 'npm install, build and test'
 
