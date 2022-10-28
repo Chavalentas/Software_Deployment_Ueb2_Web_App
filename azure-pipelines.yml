@@ -36,7 +36,7 @@ stages:
       displayName: 'Install Node.js'
 
     - script: |
-        cd ./Backend
+        cd ./nodeapp
         npm install
         npm run test --if-present
         npm run build --if-present
